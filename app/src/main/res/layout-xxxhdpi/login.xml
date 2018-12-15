@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <CheckBox
+        android:id="@+id/checkboxCCO"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:text="C.CO"
+        android:textSize="36dp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50px" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:text="Enter unique identifier:" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="number"
+        android:textSize="36sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50px" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="800px"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:visibility="gone"
+        android:inputType="textPersonName"
+        android:textSize="36sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="200px" />
+
+    <ImageButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="600px"
+        android:layout_height="600px"
+        android:background="@drawable/round_button_start"
+        android:scaleType="center"
+        android:src="@mipmap/power" />
+
+</LinearLayout>

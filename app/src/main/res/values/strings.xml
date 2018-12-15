@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RTPApp</string>
+    <string name="pref_category_general">General</string>
+    <string name="pref_rtpserver">RTP Server</string>
+    <string name="pref_rtpserver_title">RTP Server</string>
+    <string name="pref_key_rtpserver">pref_key_rtpserver</string>
+    <string name="pref_category_title_about">About</string>
+    <string name="pref_title_version">Version</string>
+    <string name="pref_key_version">pref_key_version</string>
+    <string name="pref_key_rtpserverport">pref_key_rtpserverport</string>
+    <string name="pref_title_rtpseverport">RTP Server Port</string>
+</resources>

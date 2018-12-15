@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <PreferenceCategory android:title="@string/pref_category_general">
+
+
+        <EditTextPreference
+            android:defaultValue="ericsonj.net"
+            android:key="@string/pref_key_rtpserver"
+            android:selectAllOnFocus="true"
+            android:singleLine="true"
+            android:summary="ericsonj.net"
+            android:title="@string/pref_rtpserver_title" />
+
+        <EditTextPreference
+            android:defaultValue="19000"
+            android:key="@string/pref_key_rtpserverport"
+            android:singleLine="true"
+            android:title="@string/pref_title_rtpseverport" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_category_title_about">
+
+        <EditTextPreference
+            android:key="@string/pref_key_version"
+            android:singleLine="true"
+            android:summary=""
+            android:selectable="false"
+            android:editable="false"
+            android:title="@string/pref_title_version" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <color name="colorPrimary">#ef3829</color>
+    <color name="colorPrimaryDark">#b7202e</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorCall">#8ABF3E</color>
+    <color name="colorHangUp">#ef3829</color>
+    <color name="colorBackground">#ffffff</color>
+
+    <color name="colorContactGray" tools:ignore="MissingDefaultResource">#CCCCCC</color>
+    <color name="colorContactYellow">#FFCC00</color>
+    <color name="colorContactBlue">#6699CC</color>
+    <color name="colorContactRed">#FF6666</color>
+    <color name="colorContactgreen">#62E598</color>
+
+
+    <color name="dialLineHColor">#dedede</color>
+    <color name="dialLineVColor">#dedede</color>
+    <color name="dialLineTopColor">#ef3829</color>
+    <color name="dialLineButtonColor">#ffffff</color>
+    <color name="dialTextColor">#5f5f5f</color>
+    <color name="dialSubTextColor">#dedede</color>
+    <color name="dialRipperEffectColor">#ef3829</color>
+    <color name="dialBackgroundColor">#ffffff</color>
+
+    <color name="dialContactImgTextColor">#ffffff</color>
+
+    <color name="buttonCall">#00c853</color>
+    <color name="buttonCallDark">#006753</color>
+
+    <color name="buttonHangup">#ef3829</color>
+    <color name="buttonHangupDark">#b7202e</color>
+
+    <color name="buttonOption">#ffffff</color>
+    <color name="buttonOptionDark">#dedede</color>
+    <color name="buttonOptionBorder">#ffffff</color>
+
+    <color name="dialContactTextColor">#5f5f5f</color>
+
+</resources>
